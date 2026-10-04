@@ -1,0 +1,15 @@
+{
+  "name": "snake-io-server",
+  "version": "1.0.0",
+  "description": "Servidor multiplayer (salas) do SNAKE.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

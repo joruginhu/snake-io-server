@@ -1,0 +1,9 @@
+# Opcional: "Blueprint" do Render. Se este arquivo estiver na raiz do repositório do servidor,
+# o Render cria o serviço sozinho (New + > Blueprint).
+services:
+  - type: web
+    name: snake-io-server
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
